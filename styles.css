@@ -1,0 +1,47 @@
+/* Reset and basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafaf8;
+    color: #333333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lyrics-container {
+    max-width: 600px;
+    background-color: #15ffb9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.song-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #c91b1b; /* Red color similar to Taylor Swift's branding */
+    margin-bottom: 20px;
+}
+
+.lyrics p {
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .lyrics-container {
+        padding: 15px;
+    }
+
+    .song-title {
+        font-size: 2em;
+    }
+}
